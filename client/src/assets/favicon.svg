@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBackGradFav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0052FF" />
+      <stop offset="100%" stop-color="#00C6FF" />
+    </linearGradient>
+    <linearGradient id="cardTopGradFav" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0F7FF" />
+    </linearGradient>
+    <linearGradient id="swooshGradFav" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0052FF" />
+      <stop offset="50%" stop-color="#00B2FF" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <filter id="shadowFav" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0033aa" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <g transform="translate(5, 5)">
+    <rect x="22" y="24" width="62" height="82" rx="10" transform="rotate(-12 53 65)" fill="url(#cardBackGradFav)" opacity="0.95" />
+    <rect x="28" y="20" width="62" height="82" rx="10" transform="rotate(-5 59 61)" fill="#0066FF" opacity="0.9" />
+    <g filter="url(#shadowFav)">
+      <rect x="34" y="14" width="64" height="86" rx="10" fill="url(#cardTopGradFav)" stroke="#E2E8F0" stroke-width="1.5" />
+      <circle cx="52" cy="34" r="7" fill="#0052FF" />
+      <path d="M 42 50 C 42 43, 62 43, 62 50 Z" fill="#0052FF" />
+      <rect x="63" y="28" width="26" height="3.5" rx="1.5" fill="#0066FF" opacity="0.8" />
+      <rect x="63" y="34" width="22" height="3" rx="1.5" fill="#94A3B8" />
+      <rect x="63" y="40" width="24" height="3" rx="1.5" fill="#94A3B8" />
+      <rect x="42" y="56" width="45" height="3" rx="1.5" fill="#0066FF" opacity="0.6" />
+      <circle cx="44" cy="66" r="1.5" fill="#0052FF" />
+      <rect x="49" y="64.5" width="38" height="3" rx="1.5" fill="#CBD5E1" />
+      <circle cx="44" cy="74" r="1.5" fill="#0052FF" />
+      <rect x="49" y="72.5" width="34" height="3" rx="1.5" fill="#CBD5E1" />
+      <circle cx="44" cy="82" r="1.5" fill="#0052FF" />
+      <rect x="49" y="80.5" width="30" height="3" rx="1.5" fill="#CBD5E1" />
+    </g>
+    <path d="M 12 78 C 6 102, 68 114, 114 62 C 128 46, 118 24, 102 38 C 86 52, 22 96, 12 78 Z" fill="url(#swooshGradFav)" opacity="0.9" />
+    <path d="M 116 28 Q 116 20 124 20 Q 116 20 116 12 Q 116 20 108 20 Q 116 20 116 28 Z" fill="#00E5FF" />
+  </g>
+</svg>
